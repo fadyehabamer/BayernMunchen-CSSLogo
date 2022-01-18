@@ -1,0 +1,130 @@
+body{
+    background-color: #961432;
+}
+.col-sm-12{
+    padding: 15px 0 ;
+}
+.logo-container{
+    padding: 0.5rem;
+}
+.blue{
+    background-color: #005bae;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+    height: 50rem;
+    width: 50rem;
+    box-shadow: 3px 5px 4px black;
+}
+.red{
+    height: 94%;
+    width: 94%;
+    background-color: #d70328;
+    border-radius: 50%;
+    border: 0.35rem solid white;
+    top: 3%;
+    left: 3%;
+    position: relative;
+}
+.text{
+    width: 50%;
+    height: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:72px ;
+    position: absolute;
+    margin-left: -25px;
+    left: 50%;
+}
+
+.text-top>span{
+    height: 225px;
+    width: 45px;
+    display: inline-block;
+    position: absolute;
+    transform-origin: center bottom;
+}
+.text-top>span:nth-of-type(1){
+    transform: rotateZ(-70deg);
+}
+
+.text-top>span:nth-of-type(2){
+    transform: rotateZ(-55deg);
+}
+
+.text-top>span:nth-of-type(3){
+    transform: rotateZ(-28deg);
+}
+
+.text-top>span:nth-of-type(4){
+    transform: rotateZ(-8deg);
+}
+
+.text-top>span:nth-of-type(5){
+    transform: rotateZ(11deg);
+}
+
+.text-top>span:nth-of-type(6){
+    transform: rotateZ(28deg);
+}
+
+.text-top>span:nth-of-type(7){
+    transform: rotateZ(48deg);
+}
+
+.text-top>span:nth-of-type(8){
+    transform: rotateZ(70deg);
+}
+
+.text-bottom>span{
+    height: 225px;
+    width: 45px;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    padding-top: 150px;
+    transform-origin: center top;
+}
+
+.text-bottom>span:nth-of-type(1){
+    transform: rotateZ(60deg);
+}
+.text-bottom>span:nth-of-type(2){
+    transform: rotateZ(40deg);
+}
+.text-bottom>span:nth-of-type(3){
+    transform: rotateZ(20deg);
+}
+.text-bottom>span:nth-of-type(5){
+    transform: rotateZ(-20deg);
+}
+.text-bottom>span:nth-of-type(6){
+    transform: rotateZ(-40deg);
+}
+.text-bottom>span:nth-of-type(7){
+    transform: rotateZ(-60deg);
+}
+
+.pattern{
+    background-color: #005bae;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+    border: 0.25rem solid white;
+    background-color: white;
+    background-image: linear-gradient(
+        60deg,
+        #0167b1 28%,
+        transparent 28%,
+        transparent 62%,
+        #0167b1 62%,
+        #0167b1       
+    );
+    background-size: 33px 130px;
+    transform: rotate(-10deg);
+    overflow: hidden;
+}
